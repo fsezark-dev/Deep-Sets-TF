@@ -53,7 +53,7 @@ The model is trained to predict the sum of a set of floating-point numbers. This
 
 ### Training Convergence & Permutation Sensitivity
 
-![Comparison](results/comparison.png)
+![Comparison](comparison.png)
 
 **Left** : Deep Sets converges faster and to a lower final loss than the naive MLP on the same task (log scale).
 
