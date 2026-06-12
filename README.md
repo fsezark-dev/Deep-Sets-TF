@@ -126,7 +126,7 @@ python baseline.py
 
 ---
 
-## Design Notes
+## Implementation Notes
 
 **Why `reshape -> phi -> reshape` instead of a loop?**
 Applying **phi** via reshape lets Keras process all elements in a single batched matrix multiply, no Python-level looping over set elements. Efficient and clean.
