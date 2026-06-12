@@ -107,7 +107,9 @@ Deep Sets/
 
 **Install dependencies:**
 ```bash
+# For Apple Silicon
 pip install tensorflow-macos tensorflow-metal numpy matplotlib
+
 # For non-Apple Silicon:
 pip install tensorflow numpy matplotlib
 ```
